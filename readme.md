@@ -126,7 +126,8 @@ blacklist5 = EventCode="6278" Message="Network Policy Server granted full access
 
 ##  Windows Event Clean Up in Splunk
 Add the following to ```props.conf``` file.
-If running on Splunk Cloud, this requires a Support ticket to implement on Splunk Cloud Indexers
+If running on Splunk Cloud, this requires creating a custom app with the props.conf file configured as below. 
+Information on creating Splunk App [Link](https://community.splunk.com/t5/Splunk-Cloud-Platform/How-to-edit-props-conf-in-splunk-cloud/m-p/579197/highlight/true#M1237)
 
 ``` 
 [source::WinEventLog:Security]
